@@ -1,9 +1,13 @@
 name = "my-typescript-worker"
 type = "javascript"
 zone_id = ""
-account_id = ""
+account_id = "601e7d9ebe418627bdb7c91578910a76"
 route = ""
 workers_dev = true
+kv_namespaces = [ 
+         { binding = "posts", id = "4000cfa23d8843658db4c3a5cf01a229", preview_id = "2ceae75c49584e4f959ae6f787e217f1"}
+]
+
 compatibility_date = "2021-10-19"
 
 [build]
